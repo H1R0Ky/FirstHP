@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	padding: 0.1em 1.5em 0.1em 1.5em;
+	text-decoration: none;
+	font-family: serif;
+}
+
+a:link,a:visited {
+	color: white;
+}
+
+a:hover{
+	background-color: white;
+	color: black;
+}
+
+ul{
+	display: flex;
+}
+
+li{
+	width: 100%;
+	list-style: none;
+}
+
+nav{
+}
+
+h1{
+	text-align: center;
+	padding-top: 0.2em;
+	font-size: 4em;
+}
+
+h2{
+	text-align: center;
+}
+
+.headerImg{
+	background-color: lightgray;
+	border: solid black;
+	border-width: 0px 0.1em 0.1em 0.1em;
+}
+
+.string1{
+	font-family: serif;
+	font-size: 3em;
+	text-align: center;
+}
+
+.menuBar{
+	width: 100%;
+	background-color: dimgray;
+	border: solid black;
+	border-width: 0.05em 0 0 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+.backColor{
+	background-color: dimgray;
+}
+
+.mainSentences{
+	margin: 1.5em 15% 1.5em;
+	font-family: serif;
+}
+
+#tabControl a{
+	display: inline-block;
+	border-width: 0.1em 0.1em 0 0.1em;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0.75em 0.75em 0 0;
+	padding: 0.75em 1em;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	left: 15%;
+	width: 5.5%;
+}
+
+#tabControl a:hover{
+	color: white;
+}
+
+#tabBody div{
+	border: 1px solid black;
+	border-radius: 0 1em 1em 1em;
+	padding: 1em;
+	background-color: white;
+	position: relative;
+	z-index: 0;
+	margin: -0.1em 15% 0;
+}
+
+#tabControl a:nth-child(1),#tabBody div:nth-child(1){
+	background-color: #aaddaa;
+}
+
+#tabControl a:nth-child(2),#tabBody div:nth-child(2){
+	background-color: #aaaadd;
+}
+
+#tabControl a:nth-child(3),#tabBody div:nth-child(3){
+	background-color: #ddaaaa;
+}
+
+#tabControl a:nth-child(4),#tabBody div:nth-child(4){
+	background-color: #ddddaa;
+}
+
+#tabControl a:nth-child(5),#tabBody div:nth-child(5){
+	background-color: #aadddd;
+}
+
+.imgSize{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.footerImg{
+	background-color: lightgray;
+	border: solid 2px black;
+	border-width: 0.1em 0.1em 0 0.1em;
+}
+
+.string2,.endBar{
+	text-align: right;
+}
+
+.string2{
+	font-family: bold;
+	padding: 0.5em 1em 0.5em 0;
+}
+
+.endBar{
+	color: white;
+	background-color: dimgray;
+	width: 100%;
+	border: solid black;
+	border-width: 0.05em 0 0 0;
+}
